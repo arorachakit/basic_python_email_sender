@@ -29,7 +29,7 @@ def send_email(receiver_email, subject, body):
         server.quit()
 
 
-send_email('receiver_email', subject, body)
+send_email(receiver_email, subject, body)
 
 
 # Use this link and enable for your gmail : https://www.google.com/settings/security/lesssecureapps
